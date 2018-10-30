@@ -1,5 +1,5 @@
-# KotlinMVVMActivity Template
-Android Studio template for Kotlin with MVVM and has options for AndroidX and GM MVVM Starter
+# Android Studio Kotlin and JAVA MVVM Fragment Template
+Android Studio template for Kotlin,JAVA with MVVM and has options for AndroidX and GM MVVM Starter
 
 You can find GM MVVM Starter [here](https://github.com/general-mobile/kotlin-android-mvvm-starter)
 
@@ -7,8 +7,8 @@ You can find GM MVVM Starter [here](https://github.com/general-mobile/kotlin-and
 
  * Download Repo
  * Copy all file inside repo.
- * Go to your Android Studio app, then Contents/plugins/android/lib/templates/activities/KotlinMVVMActivity (Full path: /Applications/Android Studio.app/Contents/plugins/android/lib/templates/activities/KotlinMVVMActivity).
- * Paste the templates in the 'KotlinMVVMActivity' folder
+ * Go to your Android Studio app, then Contents/plugins/android/lib/templates/other/KmMVVMFragment (Full path: /Applications/Android Studio.app/Contents/plugins/android/lib/templates/other/KmMVVMFragment).
+ * Paste the templates in the 'KmMVVMFragment' folder
  * Restart Android Studio if it's running.
 
 Note: Make sure to check the repo for updated templates. You have to remove and add the updated template again.
@@ -18,7 +18,7 @@ Note 2: Android Studio will remove the template on each update. You need to inst
 ## Usage
 
  * Launch Android Studio
- * `Right click -> New` where you want to use the new template. Look Activity section for your new template and use it. 
+ * `Right click -> New` where you want to use the new template. Look Fragment section for your new template and select KM MVVM Fragment Template . 
  * Complete the form with your information.
  * Build the project for Databinding
 
@@ -30,7 +30,7 @@ Submit your template ideas (issues or pull requests) and report any problems fac
 
 MIT License
 
-Copyright (c) 2018 Mehmet Salim Ayan
+Copyright (c) 2018 Mehmet Semih DİK
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
