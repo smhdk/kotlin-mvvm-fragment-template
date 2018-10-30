@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="KM MVVM Fragment Template"
+    description="Creates a Fragment with a MVVM pattern."
+    minApi="7"
+    minBuildApi="8">
+
+    <category value="Fragment" />
+
+    <dependency name="android-support-v4" revision="8" />
+
+    <parameter
+            id="fragmentClass"
+            name="Fragment Name"
+            type="string"
+            constraints="class|unique|nonempty"
+            default="HomeFragment"
+            help="The name of the fragment class to create"/>
+
+    <parameter
+            id="layoutName"
+            name="Layout Name"
+            type="string"
+            constraints="layout|unique|nonempty"
+            suggest="fragment_${classToResource(fragmentClass)}"
+            default="fragment_home"
+            help="The name of the layout to create for the fragment"/>
+
+<parameter
+        id="viewModelName"
+        name="ViewModel Name"
+        type="string"
+        constraints="class|nonempty|unique"
+        default="HomeViewModel"
+        suggest="${underscoreToCamelCase(classToResource(fragmentClass))}ViewModel"
+        help="The name of the ViewModel class to create" />
+
+    <parameter
+            id="isAndroidX"
+            name="AndroidX"
+            type="boolean"
+            help="Is project uses AndroidX"/>
+
+    <parameter
+            id="isGM"
+            name="Extend Base Classes"
+            type="boolean"
+            help="Is project created with General Mobile MVVM template see https://github.com/general-mobile/kotlin-android-mvvm-starter"/>
+
+    <parameter
+            id="packageName"
+            name="Package name"
+            type="string"
+            constraints="package"
+            default="com.mycompany.myapp"/>
+
+    <thumbs>
+        <thumb>template_blank_fragment.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl"/>
+    <execute file="recipe.xml.ftl"/>
+
+</template>
