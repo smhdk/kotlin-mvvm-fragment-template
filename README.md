@@ -30,7 +30,7 @@ Submit your template ideas (issues or pull requests) and report any problems fac
 
 MIT License
 
-Copyright (c) 2018 Mehmet Semih DİK
+Copyright (c) 2018 Semih DİK
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
